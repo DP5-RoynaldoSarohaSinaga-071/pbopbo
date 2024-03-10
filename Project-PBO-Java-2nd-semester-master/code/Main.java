@@ -18,8 +18,8 @@ public class Main{
             pelanggan[i].setNama(sc.nextLine());
             Boolean tanggal;
             long durasi;
-            Pemesanan pemesanan = new Pemesanan();;
-            Kendaraan kendaraan = null;
+            Pemesanan pemesanan = new Pemesanan();
+            Kendaraan kendaraan = new Kendaraan();
             do {
                 try {
                     System.out.print("Masukkan tanggal awal sewa (format: dd-MM-yyyy): ");
